@@ -34,6 +34,7 @@ function Dashboard() {
     <Box m="20px">
       <Box display="flex" justifyContent="space-between">
         <Header title="DASHBOARD" subtitle="Welcome" />
+        
         {!isXsDevices && (
           <Box>
             <Button
